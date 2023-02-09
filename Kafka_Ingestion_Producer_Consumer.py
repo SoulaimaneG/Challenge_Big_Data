@@ -44,22 +44,3 @@ try:
         
 except KeyboardInterrupt:
     sys.exit()
-
-
-# In[37]:
-
-
-kafka-topics.bat --create --zookeeper localhost:8888 --replication-factor 1 --partitions 1 --topic numtest
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
